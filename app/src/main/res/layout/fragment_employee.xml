@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/color_front_white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/icon_search"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <EditText
+            android:hint="search"
+            android:layout_marginLeft="@dimen/default_margin_padding_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/a1"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="64dp">
+
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="48dp"
+            android:layout_height="44dp"
+            android:src="@drawable/icon_developer" />
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Devid Allix"
+                android:textColor="@color/color_front_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="CEO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

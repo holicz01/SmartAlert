@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/default_margin_padding_extra_large">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginBottom="@dimen/default_margin_padding_medium">
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginBottom="@dimen/default_margin_padding_medium">
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginBottom="@dimen/default_margin_padding_medium"
+        android:text="@string/login"
+        android:textColor="@color/color_front_white"
+        android:textAllCaps="false"
+        android:background="@color/color_theme_red"/>
+
+    <Button
+        android:id="@+id/button_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:text="@string/forgot_password"
+        android:textColor="@color/color_front_white"
+        android:textAllCaps="false"
+        android:background="@color/color_theme_red"/>
+
+</LinearLayout>

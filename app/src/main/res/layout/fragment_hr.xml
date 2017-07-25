@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9B9B9B">
+
+    <TextView
+        android:text="Folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_front_black"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"/>
+    
+    <LinearLayout
+        android:id="@+id/a1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginBottom="@dimen/default_margin_padding_large"
+        android:background="@color/color_front_white">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_folder"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"/>
+
+        <TextView
+            android:text="Manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_front_black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="File"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_front_black"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginBottom="@dimen/default_margin_padding_large"
+        android:background="@color/color_front_white">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_file"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"/>
+
+        <TextView
+            android:text="Name.docx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_front_black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"/>
+
+</LinearLayout>
+    </LinearLayout>

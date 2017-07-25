@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/default_margin_padding_medium">
+
+    <TextView
+        android:text="AAAAAAAAAAAA"
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="24sp"
+        android:textColor="@color/color_front_red"/>
+
+    <TextView
+        android:text="Report By : Warit Keawpitak"
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:text="Incident Date and Time : 30 May 2017 11:25 AM"
+        android:id="@+id/text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/btn_2"
+        android:text="High &#10; Serious Injury"
+        android:gravity="center"
+        android:textColor="@color/color_front_white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:background="#EB1C24"/>
+    
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"/>
+
+    <EditText
+        android:id="@+id/edt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"/>
+
+    <EditText
+        android:id="@+id/edt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"/>
+
+    <EditText
+        android:id="@+id/edt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"/>
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:background="@drawable/icon_camera"/>
+
+
+    <Button
+        android:id="@+id/btn_send"
+        android:text="Send"
+        android:gravity="center"
+        android:textColor="@color/color_front_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:background="#EB1C24"
+        android:layout_gravity="bottom"/>
+
+
+
+</LinearLayout>

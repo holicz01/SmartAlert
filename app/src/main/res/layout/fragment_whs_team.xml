@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_view_size"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:gravity="center_vertical"
+        android:text="WHS Team"
+        android:textColor="@color/color_front_black"/>
+
+    <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:background="@drawable/rectangle"
+         android:paddingStart="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="48dp"
+            android:layout_height="44dp"
+            android:background="@drawable/icon_developer" />
+        
+        
+
+        <TextView
+            android:id="@+id/text_menu"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:paddingLeft="@dimen/default_margin_padding_medium"
+            android:gravity="center_vertical"
+            android:text="Office"
+            android:textColor="@color/color_front_black"
+            />
+
+        <Button
+             android:id="@+id/button_message"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:background="@drawable/icon_whs_message"/>
+
+        <Button
+             android:id="@+id/button_repeat"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:layout_marginLeft="2dp"
+             android:background="@drawable/icon_whs_repeat"/>
+
+     </LinearLayout>
+
+</LinearLayout>

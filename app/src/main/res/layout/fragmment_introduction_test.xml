@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Test"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_large"/>
+
+    <TextView
+        android:layout_below="@+id/text_term"
+        android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/a1"
+        android:text="Start"
+        android:textColor="@color/color_front_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_theme_red"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"/>
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_marginTop="@dimen/default_margin_padding_medium">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_medium">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:gravity="center_vertical"
+            android:text="Powder ABE"
+            android:textSize="16sp"
+            android:textColor="@color/color_front_black" />
+
+
+        <TextView
+            android:layout_marginTop="@dimen/default_margin_padding_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:gravity="center_vertical"
+            android:text="Inspect Date"
+            android:textSize="12sp"
+            android:textColor="@color/color_front_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:gravity="center_vertical"
+            android:text="30 June 2016 11:23 AM"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:gravity="center_vertical"
+            android:text="Expire Date"
+            android:textSize="12sp"
+            android:textColor="@color/color_front_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:gravity="center_vertical"
+            android:text="30 June 2016 11:23 AM"
+            android:textSize="12sp"
+            android:textColor="@color/color_front_black" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_y"/>
+
+        <ImageView
+            android:layout_marginLeft="@dimen/default_margin_padding_small"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_edit"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:text="Item Image"
+        android:textColor="@color/color_front_black"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginTop="@dimen/default_margin_padding_small"
+        android:layout_marginBottom="@dimen/default_margin_padding_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:background="@drawable/placeholder"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:text="Plan Floor"
+        android:textColor="@color/color_front_black"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginTop="@dimen/default_margin_padding_small"
+        android:layout_marginBottom="@dimen/default_margin_padding_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:background="@drawable/placeholder"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

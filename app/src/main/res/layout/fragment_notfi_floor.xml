@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Zone"
+        android:textStyle="bold"
+        android:textColor="@color/color_front_black"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/default_margin_padding_medium"
+        android:background="@drawable/rectangle"
+        android:layout_height="36dp">
+
+        <Spinner
+            android:id="@+id/spinner_shop_list"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:spinnerMode="dropdown"
+            android:overlapAnchor="false"
+            android:background="@null">
+        </Spinner>
+
+        <ImageView
+            android:id="@+id/image_category_open_shop_list"
+            android:layout_marginRight="@dimen/default_margin_padding_medium"
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:background="@drawable/ic_down_arrow"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/a1"
+        android:text="Control Room"
+        android:textColor="@color/color_front_black"
+        android:textSize="16sp"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/a2"
+        android:text="Warehouse"
+        android:textColor="@color/color_front_black"
+        android:textSize="16sp"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

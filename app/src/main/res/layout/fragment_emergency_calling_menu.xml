@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    <Button
+        android:id="@+id/btn_1"
+        android:text="Severe &#10; Life Threatening"
+        android:textColor="@color/color_front_white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:background="#EB1C24"/>
+    <Button
+        android:id="@+id/btn_2"
+        android:text="High &#10; Serious Injury"
+        android:textColor="@color/color_front_white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:background="#EF8D22"/>
+    <Button
+        android:id="@+id/btn_3"
+        android:text="Moderate &#10;Non Life Threatening"
+        android:textColor="@color/color_front_white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:background="#FCC438"/>
+    <Button
+        android:id="@+id/btn_4"
+        android:text="Minor &#10;Internal Assistanc"
+        android:textColor="@color/color_front_white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:background="#0C7CBA"/>
+    <Button
+        android:id="@+id/btn_5"
+        android:textColor="@color/color_front_white"
+        android:text="Minor &#10;Internal Assistance"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:background="#7AB648"/>
+    </LinearLayout>
+</RelativeLayout>

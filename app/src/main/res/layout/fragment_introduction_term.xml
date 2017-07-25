@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/text_term"
+        android:text="Term Of Condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginTop="@dimen/default_margin_padding_large"/>
+
+
+    <TextView
+        android:layout_below="@+id/text_term"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean neque purus, volutpat vel efficitur ut, finibus nec nulla. Sed euismod neque et lacus tempor rhoncus. Cras quis ipsum ornare, facilisis tellus non, lobortis orci. Sed vel congue sem. Nullam elementum molestie imperdiet. Morbi porta purus augue, ac ultricies nibh varius vel. Pellentesque bibendum risus vitae ante convallis, congue malesuada neque lacinia. In elementum purus nisl, nec sollicitudin mi semper vel. Aliquam placerat dui id odio lobortis dictum. Donec viverra leo felis, "
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginBottom="@dimen/default_margin_padding_medium"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:text="I Agree"
+            android:id="@+id/a1"
+            android:textColor="@color/color_front_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_theme_red"/>
+
+        <Button
+            android:text="Cancle"
+            android:id="@+id/a2"
+            android:textColor="@color/color_front_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_theme_red"
+            android:layout_marginTop="@dimen/default_margin_padding_medium"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

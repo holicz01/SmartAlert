@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_view_size"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:gravity="center_vertical"
+        android:text="Site List"
+        android:textColor="@color/color_front_black"/>
+
+    <LinearLayout
+        android:id="@+id/a1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:background="@drawable/rectangle">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facetory A"
+                android:textColor="@color/color_front_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Work Shop"
+                android:textColor="@color/color_front_black"/>
+
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:padding="@dimen/default_margin_padding_large"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/placeholder"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/a2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/rectangle">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facetory A"
+                android:textColor="@color/color_front_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Cafeteria"
+                android:textColor="@color/color_front_black"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:padding="@dimen/default_margin_padding_large"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/placeholder"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

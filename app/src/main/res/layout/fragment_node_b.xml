@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Light Vehicle(1)"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_front_black"
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/a2"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:text="Light Vehicle(2)"
+        android:textColor="@color/color_front_black"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/a3"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:gravity="center_vertical"
+        android:text="Task Observation"
+        android:textColor="@color/color_front_black"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginBottom="4dp"/>
+
+</LinearLayout>

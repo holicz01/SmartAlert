@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_view_size"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:gravity="center_vertical"
+        android:text="Introduction Card List"
+        android:textColor="@color/color_front_black" />
+
+    <RelativeLayout
+        android:id="@+id/a1"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/rectangle">
+
+        <View
+            android:id="@+id/logo_1"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="#F85A4E"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+        android:layout_toRightOf="@id/logo_1"
+        android:id="@+id/group_1"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+
+        <TextView
+        android:text="Factory A"
+        android:textColor="@color/color_front_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+        android:text="Work Shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:orientation="vertical"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+        android:text="Expire"
+        android:textColor="@color/color_front_black"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+        android:text="30 June 2017 11 : 25 Am"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/a5"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/rectangle">
+
+        <View
+            android:id="@+id/logo_1"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="#FCC438"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@id/logo_1"
+            android:id="@+id/group_1"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+
+            <TextView
+                android:text="Factory A"
+                android:textColor="@color/color_front_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Office"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:text="Expire"
+                android:textColor="@color/color_front_black"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="30 June 2017 11 : 25 Am"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/a6"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/rectangle"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/default_margin_padding_medium"
+        android:paddingRight="@dimen/default_margin_padding_medium">
+
+        <View
+            android:id="@+id/logo_1"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:background="#7AB648" />
+
+        <LinearLayout
+            android:id="@+id/group_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:layout_toRightOf="@id/logo_1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Factory A"
+                android:textColor="@color/color_front_black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cafeteria" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/default_margin_padding_medium"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Expire"
+                android:textColor="@color/color_front_black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="30 June 2017 11 : 25 Am" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

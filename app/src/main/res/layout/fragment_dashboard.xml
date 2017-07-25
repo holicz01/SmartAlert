@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_margin_padding_medium"
+    android:background="#FFF">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="Site &#10; Familiarisation"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/color_front_red"/>
+
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:id="@+id/image_menu_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/menu_one" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+                android:textSize="14sp"
+                android:text="Induction"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/color_front_red"/>
+
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:id="@+id/image_menu_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/menu_two" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+                android:text="WHS&#10; Support Team"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/color_front_red"/>
+
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:id="@+id/image_menu_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/menu_three" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="-16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="Evacuations"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/color_front_red"/>
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:id="@+id/image_menu_4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/menu_four" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="Emergency &#10; Calling"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/color_front_red"/>
+
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:id="@+id/image_menu_5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/menu_five" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="First Aid &#10; Support"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/color_front_red"/>
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:id="@+id/image_menu_6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/menu_six" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="-16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="Fire"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/color_front_red"/>
+
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:id="@+id/image_menu_7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/menu_seven" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="Safety &#10; Compliance"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/color_front_red"/>
+
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:id="@+id/image_menu_8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/menu_egg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="140dp">
+
+            <TextView
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="HR Policies"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/color_front_red"/>
+
+            <ImageView
+                android:id="@+id/image_menu_9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-8dp"
+                android:background="@drawable/menu_nine" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="-16dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="140dp">
+
+        <TextView
+            android:textSize="14sp"
+            android:gravity="center"
+            android:text="W.A.S.P"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/color_front_red"/>
+
+        <ImageView
+            android:layout_marginTop="-8dp"
+            android:id="@+id/image_menu_10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/menu_ten" />
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>

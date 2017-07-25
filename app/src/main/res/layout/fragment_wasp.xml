@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium">
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_dev_wsap"
+            android:padding="3dp"
+            android:background="#F74F45"/>
+
+        <LinearLayout
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle_color"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="Warit Keawpitak &#10;Developer"
+                android:paddingLeft="@dimen/default_margin_padding_medium"
+                android:textColor="@color/color_front_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium">
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_dev_green"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:background="#7AB648"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle_color_green"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="Warit Keawpitak &#10;Developer"
+                android:paddingLeft="@dimen/default_margin_padding_medium"
+                android:textColor="@color/color_front_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:layout_marginLeft="@dimen/default_margin_padding_medium"
+        android:layout_marginRight="@dimen/default_margin_padding_medium">
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_dev_green"
+            android:padding="3dp"
+            android:background="#7AB648"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle_color_green"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:text="Warit Keawpitak &#10;Developer"
+                android:paddingLeft="@dimen/default_margin_padding_medium"
+                android:textColor="@color/color_front_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

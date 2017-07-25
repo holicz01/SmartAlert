@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/color_front_black"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:text="Task Observation" />
+
+    <TextView
+        android:textColor="@color/color_front_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:text="Task Observation purpose&#10;- Encourage physical observation of people working&#10;- Identity and praise safe practies&#10;- To commit the person to reduce future at rist  work practice" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:background="@color/color_theme_red"
+        android:text="Start"
+        android:textColor="@color/color_front_white" />
+
+</LinearLayout>

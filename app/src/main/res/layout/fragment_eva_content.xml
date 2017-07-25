@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:id="@+id/a0"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:background="@drawable/eva_green"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/default_margin_padding_small"
+            android:textColor="@color/color_front_black"
+            android:text="Warit Keawpitak &#10;Developer"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/a1"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/eva_yello"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/default_margin_padding_small"
+                android:textColor="@color/color_front_black"
+                android:text="Warit Keawpitak &#10;Developer"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/default_margin_padding_medium"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginRight="@dimen/default_margin_padding_large"
+        android:layout_marginBottom="@dimen/default_margin_padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/a2"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/eva_green"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/default_margin_padding_small"
+                android:textColor="@color/color_front_black"
+                android:text="Warit Keawpitak &#10;Developer"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/a3"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:background="@drawable/eva_yello"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/default_margin_padding_small"
+                android:textColor="@color/color_front_black"
+                android:text="Warit Keawpitak &#10;Developer"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
